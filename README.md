@@ -9,6 +9,34 @@ git commit -m "first commit"
 git remote add origin https://github.com/MathewGO/HTML.git
 git push -u origin master
 
+--Hacer que el padding no influya al momento de editar--
+html {
+	box-sizing: border-box;
+}
+
+*,*:before;*:after {
+	box-sizing: inherit;
+}
+
+* {
+	margin:0;
+	padding:0;
+}
+
+-- --
+
+--Hacer que el fondo quede fijo --
+html {
+	height: 100%;
+}
+
+body {
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+-- --
 
 divs con bordes curvos
 
