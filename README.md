@@ -29,4 +29,12 @@ Colores:
 1- Por nombre
 2- Hexagesimal, #(hexa)
 
+Cuando se hace selección con el mouse sobre un objeto, se puede hacer cambio de formato: ":hover"
+
+Web Responsibe
+@media only screen and (min-width: xxxpx) and (max: xxxpx) {
+
+codigo CSS
+
+}
 
