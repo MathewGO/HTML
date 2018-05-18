@@ -52,6 +52,8 @@ background-repeat: no-repeat; repeat-y; repeat-x;
 background-size: cover (la imagen toma el ancho y alto disponible de donde se esté aplicando);
 background-position: center center; bottom right;
 
+Elegir la primera aparición de un elemento:
+:first-child
 
 Colores:
 1- Por nombre
