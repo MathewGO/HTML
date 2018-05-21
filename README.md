@@ -72,5 +72,6 @@ Trabajar el formato en celulares:
 en la etiqueta de html, agregar una meta con lo siguiente:
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 
-
+Seleccionar primer elemento (sea cual sea):
+Elemento-Principal > * {}    -- El asterisco es el selector del elemento principal
 
