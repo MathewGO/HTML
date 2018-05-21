@@ -1,0 +1,35 @@
+Hay dos tipos de orientaciones:
+
+1- Movil First: el codigo se escribe a partir de cierto tamaño
+
+@media only screen and (min-width:xxxpx) {
+body {}
+}
+
+2- Destop First: mediaquery escribis el codigo hasta cierto tamaño
+
+@media only screen and (max-width: 800px) {
+body {
+}
+}
+el max-width indica q es destktop first
+
+Patron diseño - Mostly Fluid: 
+              - Column drop: las columnas son fijas, y cuando se pasa a movile se reacomoda todo (columnas a la izquierda y a la derecha -- usando float left y padding -75%--
+              - Layout Shifter: 
+              - Tiny Tweaks: 
+              - Principal Sidebar: es el más optimo
+              - Three columns:
+              - Three same columns: se pone las 3 columnas que pasan a ser cajas apiladas en formato movil
+              - Two Columns: 
+              
+Imagenes Responsibe:
+Para hacer una imagen responsiba, hay que ponerle un width de 100%, para que tome el ancho de la imagen
+
+Como hacer para cargar imagenes con menor peso? (no se usa en IE)
+<picture>
+  <source media="(max-width:xxxPX)" source="imagen-pequeña">
+  <source media="(min-width:xxxPX) and (max-width:xxxPX)" source="imagen-mediana">
+  <img class="" src="imagen-grande" alt="">
+</picture>
+
