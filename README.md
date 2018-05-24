@@ -75,3 +75,7 @@ en la etiqueta de html, agregar una meta con lo siguiente:
 Seleccionar primer elemento (sea cual sea):
 Elemento-Principal > * {}    -- El asterisco es el selector del elemento principal
 
+Imagenes:
+hacer que la imagen se vea en todo la pantalla: height: 100vh;
+hacer que la imagen se vea centrada: background-position: top center; /** Para ver la imagen centrada **/
+Se utiliza toda la imagen con : background-size: cover;
