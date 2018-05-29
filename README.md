@@ -79,3 +79,7 @@ Imagenes:
 hacer que la imagen se vea en todo la pantalla: height: 100vh;
 hacer que la imagen se vea centrada: background-position: top center; /** Para ver la imagen centrada **/
 Se utiliza toda la imagen con : background-size: cover;
+
+Transition: efectos sobre un hover?? (no se si se hace solamente cuando se le da hover)
+
+transition: all xxs ease; -- se escribe sobre el elemento "sin el hover", y aplica los efectos del hover
